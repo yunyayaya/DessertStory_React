@@ -1,0 +1,12 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/functions';
+@import './variables';
+
+$primary-bg:pink;
+$text:white;
+body{
+    background-color: $primary-bg;
+};
+h1,text{
+    color: $text;
+};
